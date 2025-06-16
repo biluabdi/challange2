@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+
+}
+button {
+    background-color: green;
+    padding: 5px 10px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+input::placeholder {
+    color: aliceblue;
+    font-style: italic;
+    font-weight: lighter;
+
+}
+h1 {
+  font-size: large;
+ text-align: center;
+  margin-top: 20px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  
+}
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event guest list</title>
+    <!--link css file-->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- guest list container-->
+    <div class="container">
+        <h1>guest list</h1>
+
+        <!--adding a guest to the list-->
+        <form id="guest-form">
+            <input
+             type="text" 
+             name="invited" 
+             id="guest-name"
+             placeholder="type your name here"
+             required/>
+             
+             <!--button-->
+             <button type="submit">add guest</button>
+        </form>
+
+        <!-- guest list display area -->
+        <ul id="guest-list"></ul>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
